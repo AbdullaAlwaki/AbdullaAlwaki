@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>contact</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="../img/Alwakilogo.png" alt="alwaki logo"></a>
+        <ul>
+            <li><a href= "../index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <main>
+            <h1>Contact</h1>
+            <form action="">
+                <div>
+                    <label class="ok" for="title">Title:</label>
+                    <select name="titleName" id="title">
+                        <option label="Please select your title"></option>
+                        <option disabled>---</option>
+                        <option value="mr">Mr</option>
+                        <option value="mrs">Mrs</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="ok" for="fn">First name:</label>
+                    <input name="firstName" id="fn" type="text" placeholder="First Name" maxlength="100">
+                </div>
+                <div>
+                    <label class="ok" for="ln">Last name:</label>
+                    <input id="ln" name="lastName" type="text" placeholder="Last Name" maxlength="100">
+                </div>
+                <div>
+                    <label class="ok" for="em">Email: *</label>
+                    <input type="email" name="e-mail" id="em" placeholder="example@exampel.com" maxlength="100"
+                        required>
+                </div>
+                <div>
+                    <label class="ok" for="pw">Password: *</label>
+                    <input type="password" name="pass" id="pw" placeholder="enter password">
+                </div>
+                <div>
+                    <span class="ok">Age group:</span>
+                    <input type="radio" name="ageGroup" id="to30" value="toThirty">
+                    <label for="to30">20-39</label>
+                    <input type="radio" checked name="ageGroup" id="to60" value="toSixty">
+                    <label for="to60">40-60</label>
+                </div>
+                <div>
+                    <label class="ok" for="msg">send me a mssge</label>
+                    <textarea name="message" id="msg" cols="22" rows="10" placeholder="Please enter your message"
+                        maxlength="1000"></textarea>
+                </div>
+                <div class="submitDiv">
+                    <span>
+                        <input type="checkbox" name="acceptTerms" id="terms" required>
+                        <label for="terms">Accept our <a href="terms.html" target="_blank">terms and conditions</a>.
+                            *</label>
+                    </span>
+                    <span>
+                        <input checked type="checkbox" name="maillist" id="ml">
+                        <label for="ml">Subscribe to our mailing list.</label>
+                    </span>
+                    <div style="background-color: black;">
+                        <input type="submit" value="Send Now!">
+                    </div>
+                    <p class="subtext">Fields that are marked with an * are required.</p>
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+</body>
+
+</html>

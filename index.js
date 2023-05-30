@@ -79,7 +79,7 @@ form.addEventListener("submit", (e) => {
     text,
   };
   try {
-    fetch("https://yalla-be.onrender.com/portfolio/contact", {
+    fetch("https://api.aha-store.com/portfolio/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -83,6 +83,7 @@ form.addEventListener("submit", (e) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify(data),
     })

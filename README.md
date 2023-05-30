@@ -1,2 +1,2 @@
 # portofolio
-[Try me](https://abdullaalwaki.github.io/portofolio/)
+[Try me](https://abdullaalwaki.github.io/AbdullaAlwaki/))

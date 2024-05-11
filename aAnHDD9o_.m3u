@@ -9395,7 +9395,11 @@ https://mediacpstreamchile.com:1936/8102/8102/playlist.m3u8
 #EXTINF:-1 tvg-id="PlanetaTVKids.cl"tvg-logo="https://i.imgur.com/v5zkh4T.png"group-title="Kids":http-referrer="":http-user-agent="",PlanetaTV Kids (1080p)
 https://mediacpstreamchile.com:1936/8152/8152/playlist.m3u8
 #EXTINF:-1 tvg-id="PlanetaTVMovie.cl"tvg-logo="https://i.imgur.com/ZjIgPmV.png"group-title="Movies":http-referrer="":http-user-agent="",PlanetaTV Movie (720p)
+https://www.youtube.com/embed/u32SIUlucEA?si=q-8DIRWBtIL1DWME
+
+#EXTINF:-1 tvg-id="PlanetaTVMovie.cl"tvg-logo="https://avatars.githubusercontent.com/u/91062602?v=4"group-title="Movies":http-referrer="":http-user-agent="",Alwaki
 https://scl.edge.grupoz.cl/movie/live/playlist.m3u8
+
 #EXTINF:-1 tvg-id="PlanetaTVMusic.cl"tvg-logo="https://i.imgur.com/wPeT7UL.png"group-title="Music":http-referrer="":http-user-agent="",PlanetaTV Music (720p)
 https://scl.edge.grupoz.cl/music/live/music.m3u8
 #EXTINF:-1 tvg-id="PlantBasedNetwork.us"tvg-logo="https://i.imgur.com/1a40NOg.png"group-title="Undefined":http-referrer="":http-user-agent="",Plant Based Network (1080p) [Not 24/7]

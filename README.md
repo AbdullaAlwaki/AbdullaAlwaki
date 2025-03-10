@@ -6,7 +6,7 @@
 
 ### ✉️ Contact  
 
-- **Email**: [abdulla@icloud.com](mailto:abdulla@icloud.com)  
+- **Email**: [abdullaalwaki@icloud.com](mailto:abdullaalwaki@icloud.com)  
 - **Website**: [My Website](https://abdullaalwaki.github.io/AbdullaAlwaki/)  
 
 ---  
@@ -34,7 +34,7 @@ I’m actively seeking opportunities to bring my skills and creativity to dynami
 ### 🚀 Projects  
 
 - **[Video Player](https://abdullaalwaki.github.io/videoplyer/)**: A custom video player for web applications.  
-- **[Alwaki Store](https://alwakistore.onrender.com/)**: A modern e-commerce platform with a clean and responsive design.  
+- **[Alwaki Store](https://alwakistor.vercel.app/en)**: A modern e-commerce platform with a clean and responsive design.  
 - **[Areeg Money Service](https://areegmoneyservice.com/)**: A financial service website offering efficient money transfer options.  
 - **[Scraping Wikipedia](https://github.com/AbdullaAlwaki/ScrapingWikipedia/blob/main/My%20Project.ipynb)**: A Python-based project for extracting data from Wikipedia.  
 - **[MERN Restaurant](https://mern-restaurant.onrender.com/)**: A full-stack restaurant management system built using the MERN stack.  

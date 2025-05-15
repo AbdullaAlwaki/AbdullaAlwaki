@@ -6,7 +6,7 @@
 
 ### ✉️ Contact  
 
-- **Email**: [abdullaalwaki@icloud.com](mailto:abdullaalwaki@icloud.com)  
+- **Email**: [Alwakijobs@gmail.com](mailto:Alwakijobs@gmail.com)  
 - **Website**: [My Website](https://abdullaalwaki.github.io/AbdullaAlwaki/)  
 
 ---  

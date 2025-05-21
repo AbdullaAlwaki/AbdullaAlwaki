@@ -133,7 +133,7 @@ const portfolioProjectsEN = [
     desc: "In this project I built a website for a restaurant using MERN stack (MongoDB, Express, React, Node.js)",
     link: "https://mern-restaurant.onrender.com/",
   },
-    {
+  {
     src: "./images/AlwakiPeriodictable.jpeg",
     title: "Alwaki Periodic Table",
     desc: "A web app that provides information about the periodic table of elements.",

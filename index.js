@@ -16,8 +16,6 @@ const radio3 = document.querySelector("#radio3");
 const con1 = document.querySelector(".con1");
 const con2 = document.querySelector(".con2");
 const con3 = document.querySelector(".con3");
-const form = document.querySelector("form");
-const message = document.querySelector(".message");
 
 radio1.addEventListener("click", () => {
   con1.style.display = "flex";
@@ -75,42 +73,6 @@ hamburger.addEventListener("click", function () {
     });
     svgRing.style.stroke = "black";
   }
-});
-
-let state;
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  let name = document.querySelector("#name").value;
-  let email = document.querySelector("#email").value;
-  let text = document.querySelector("#text").value;
-  const data = {
-    name,
-    email,
-    text,
-  };
-  try {
-    fetch("https://api.aha-store.com/portfolio/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((data) => (state = data))
-      .catch((err) => (state = err));
-    console.log(state.error);
-  } catch (error) {
-    console.log(error);
-  }
-  setTimeout(() => {
-    if (state.error) {
-      message.textContent = state?.error;
-    } else {
-      message.textContent = state?.message;
-    }
-  }, 1000);
 });
 
 // log when scroll

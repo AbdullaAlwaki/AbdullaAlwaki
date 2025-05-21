@@ -1,49 +1,60 @@
-# Abdulla Alwaki  
+# Abdulla Alwaki
 
-## 🌍 Based in Berlin  
+## 🌍 Based in Berlin
 
----  
+---
 
-### ✉️ Contact  
+### ✉️ Contact
 
-- **Email**: [Alwakijobs@gmail.com](mailto:Alwakijobs@gmail.com)  
-- **Website**: [My Website](https://abdullaalwaki.github.io/AbdullaAlwaki/)  
+- **Email**: [Alwakijobs@gmail.com](mailto:Alwakijobs@gmail.com)
+- **Website**: [My Website](https://abdullaalwaki.github.io/AbdullaAlwaki/)
 
----  
+---
 
-### 🌟 About Me  
+### 🌟 About Me
 
-Hi, I’m **Abdulla Alwaki**, a passionate **Web Developer** with a keen interest in **coding**.  
-I’m actively seeking opportunities to bring my skills and creativity to dynamic development teams.  
+Hi, I’m **Abdulla Alwaki**, a passionate **Web Developer** based in Berlin, with a keen interest in **coding** and building impactful digital solutions. I’m actively seeking opportunities to bring my skills and creativity to dynamic development teams.
 
-**Nationality**: 🇸🇾 **Syria**  
+- **Nationality**: 🇸🇾 Syria
+- **Languages**: Arabic, English
+- **Strengths**: Solution-oriented, patient, self-reliant, strong communicator
 
----  
+---
 
-### 🛠️ Skills  
+### 🛠️ Skills
 
-- **Programming Languages**:  
-  1. JavaScript  
-  2. Python  
-  3. HTML  
-  4. CSS  
-  5. TypeScript  
+- **Programming Languages:**
+  - JavaScript (ES6+)
+  - Python
+  - TypeScript
+  - HTML5
+  - CSS3
+- **Frameworks & Libraries:**
+  - React.js
+  - Node.js
+  - Express.js
+  - MongoDB
+- **Other:**
+  - Responsive Web Design
+  - REST APIs
+  - Git & GitHub
+  - UI/UX Principles
 
----  
+---
 
-### 🚀 Projects  
+### 🚀 Projects
 
-- **[Alwaki Store](https://alwakistor.vercel.app/en)**: A modern e-commerce platform with a clean and responsive design.  
-- **[Alwaki Route](https://abdullaalwaki.github.io/Alwakirout/)**: A app to make route.  
-- **[Areeg Money Service](https://areegmoneyservice.com/)**: A financial service website offering efficient money transfer options.  
-- **[Scraping Wikipedia](https://github.com/AbdullaAlwaki/ScrapingWikipedia/blob/main/My%20Project.ipynb)**: A Python-based project for extracting data from Wikipedia.  
-- **[MERN Restaurant](https://mern-restaurant.onrender.com/)**: A full-stack restaurant management system built using the MERN stack.  
+- **[Alwaki Store](https://alwakistor.vercel.app/en):** Modern e-commerce platform with a clean, responsive design.
+- **[Alwaki Route](https://abdullaalwaki.github.io/Alwakirout/):** Route planning web app.
+- **[Areeg Money Service](https://areegmoneyservice.com/):** Financial service website for efficient money transfers.
+- **[Scraping Wikipedia](https://github.com/AbdullaAlwaki/ScrapingWikipedia/blob/main/My%20Project.ipynb):** Python project for extracting data from Wikipedia.
+- **[MERN Restaurant](https://mern-restaurant.onrender.com/):** Full-stack restaurant management system using the MERN stack.
 
----  
+---
 
-### 💻 Code Snippet  
+### 💻 Code Snippet
 
-Here’s a simple yet dynamic JavaScript function:  
+Here’s a simple yet dynamic JavaScript function:
 
 ```javascript
 // Function to greet a user with dynamic time-based messages
@@ -53,5 +64,17 @@ const greet = (name) => {
   console.log(`Good ${timeOfDay}, ${name}!`);
 };
 
-// Test the function
 greet('Abdulla');
+```
+
+---
+
+### 📫 How to Reach Me
+
+- Email: [Alwakijobs@gmail.com](mailto:Alwakijobs@gmail.com)
+- LinkedIn: [linkedin.com/in/abdullaalwaki](https://linkedin.com/in/abdullaalwaki) *(add your LinkedIn if available)*
+- Portfolio: [My Website](https://abdullaalwaki.github.io/AbdullaAlwaki/)
+
+---
+
+*Thank you for visiting my profile! Feel free to connect or reach out for collaborations, projects, or just a friendly chat.*

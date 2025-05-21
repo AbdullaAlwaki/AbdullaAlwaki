@@ -75,20 +75,41 @@ hamburger.addEventListener("click", function () {
   }
 });
 
+homeLi.classList.add("active");
 // log when scroll
 window.addEventListener("scroll", () => {
-  if (
-    (window.scrollY > 0 && window.scrollY < 700) ||
-    (window.scrollY > 1700 && window.scrollY < 2600)
-  ) {
-    side.classList.remove("side-active");
-    side.classList.add("side");
-  } else if (
-    (window.scrollY > 700 && window.scrollY < 1700) ||
-    (window.scrollY > 2600 && window.scrollY < 3100)
-  ) {
+console.log(window.scrollY);
+  // Improved section highlighting logic
+  if (window.scrollY < 1100) {
+    homeLi.classList.add("active");
+    aboutLi.classList.remove("active");
+    portfolioLi.classList.remove("active");
+    contactLi.classList.remove("active");
+        side.classList.remove("side-active");
+    side.classList.add("not_active");
+  } else if (window.scrollY >= 1100 && window.scrollY < 2600) {
+    homeLi.classList.remove("active");
+    aboutLi.classList.add("active");
+    portfolioLi.classList.remove("active");
+    contactLi.classList.remove("active");
     side.classList.add("side-active");
+    side.classList.remove("not_active");
+  } else if (window.scrollY >= 2600 && window.scrollY < 3600) {
+    homeLi.classList.remove("active");
+    aboutLi.classList.remove("active");
+    portfolioLi.classList.add("active");
+    contactLi.classList.remove("active");
+        side.classList.remove("side-active");
+    side.classList.add("not_active");
+  } else if (window.scrollY >= 2600) {
+    homeLi.classList.remove("active");
+    aboutLi.classList.remove("active");
+    portfolioLi.classList.remove("active");
+    contactLi.classList.add("active");
+    side.classList.add("side-active");
+    side.classList.remove("not_active");
   }
+
   if (
     (window.scrollY > 0 &&
       window.scrollY < 640 &&

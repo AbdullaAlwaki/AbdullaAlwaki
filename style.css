@@ -1,7 +1,7 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-iframe{
+iframe {
   width: 100%;
   height: 100%;
   border: none;
@@ -16,7 +16,6 @@ body {
   padding: 0;
   width: 100%;
 }
-
 
 span {
   color: rgb(80, 185, 0);
@@ -93,7 +92,7 @@ a {
   margin: 10%;
 }
 
-a:hover {
+.not_active a:hover {
   background-color: rgb(255, 255, 255);
   color: #000;
   transition: 0.3s;
@@ -264,7 +263,6 @@ p {
   align-items: flex-start;
 }
 
-
 .project {
   display: flex;
   flex-direction: column;
@@ -275,7 +273,9 @@ p {
   margin: 1%;
 }
 
-.con1, .con2, .con3{
+.con1,
+.con2,
+.con3 {
   display: none;
   flex-direction: row;
   justify-content: space-between;
@@ -285,11 +285,11 @@ p {
   margin-bottom: 20px;
 }
 
-.con1{
+.con1 {
   display: flex;
 }
 
-.img{
+.img {
   width: 65%;
   height: 100%;
   object-fit: contain;
@@ -300,12 +300,12 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.text{
+.text {
   width: 30%;
   padding: 0 15px;
 }
 
-.img-end{
+.img-end {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -327,7 +327,7 @@ p {
   padding: 0 10px;
 }
 
-.small-img{
+.small-img {
   width: 200px;
   height: 200px;
   object-fit: contain;
@@ -344,10 +344,9 @@ p {
   transform: scale(1.05);
 }
 
-input[type="radio"]{
+input[type="radio"] {
   display: none;
 }
-
 
 h1 {
   text-align: center;
@@ -749,20 +748,20 @@ input[type="submit"]:hover {
     max-width: 1400px;
     margin: 0 auto;
   }
-  
+
   .main-content h1 {
     font-size: 4em;
   }
-  
+
   .main-content p {
     font-size: 1.3em;
     max-width: 900px;
   }
-  
+
   .about-div {
     padding: 30px;
   }
-  
+
   .small-img {
     width: 250px;
     height: 250px;
@@ -779,41 +778,45 @@ input[type="submit"]:hover {
   .side {
     width: 30%;
   }
-  
-  .home, #about, #Portfolio {
+
+  .home,
+  #about,
+  #Portfolio {
     width: 70%;
     padding-left: 30%;
   }
-  
+
   .main-content h1 {
     font-size: 3em;
   }
-  
+
   .main-content p {
     font-size: 1.1em;
   }
-  
+
   .about-content {
     flex-wrap: wrap;
   }
-  
+
   .about-div {
     width: 45%;
     margin-bottom: 20px;
   }
-  
-  .con1, .con2, .con3 {
+
+  .con1,
+  .con2,
+  .con3 {
     flex-wrap: wrap;
   }
-  
+
   .img {
     width: 55%;
   }
-  
+
   .text {
     width: 40%;
   }
-  
+
   .small-img {
     width: 180px;
     height: 180px;
@@ -825,58 +828,62 @@ input[type="submit"]:hover {
   .side {
     width: 35%;
   }
-  
-  .home, #about, #Portfolio {
+
+  .home,
+  #about,
+  #Portfolio {
     width: 65%;
     padding-left: 35%;
   }
-  
+
   .main-content h1 {
     font-size: 2.8em;
   }
-  
+
   .main-content h2 {
     font-size: 1.8em;
   }
-  
+
   .main-content p {
     font-size: 1em;
   }
-  
+
   .about-content {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .about-div {
     width: 80%;
     margin-bottom: 20px;
   }
-  
-  .con1, .con2, .con3 {
+
+  .con1,
+  .con2,
+  .con3 {
     flex-direction: column;
   }
-  
+
   .img {
     width: 100%;
     margin-bottom: 20px;
   }
-  
+
   .text {
     width: 100%;
     text-align: center;
   }
-  
+
   .small-img {
     width: 160px;
     height: 160px;
   }
-  
+
   #Contact {
     width: 65%;
     padding-left: 35%;
   }
-  
+
   .Contact-content {
     width: 90%;
   }
@@ -891,7 +898,7 @@ input[type="submit"]:hover {
     left: 10px;
     z-index: 100;
   }
-  
+
   .side {
     display: none;
     width: 100%;
@@ -900,7 +907,7 @@ input[type="submit"]:hover {
     z-index: 99;
     padding: 60px 0 20px 0;
   }
-  
+
   @keyframes identifier {
     0% {
       transform: translateX(-100%);
@@ -914,7 +921,7 @@ input[type="submit"]:hover {
     width: 100%;
     padding-left: 0px;
   }
-  
+
   .home,
   #about,
   #Portfolio,
@@ -929,36 +936,36 @@ input[type="submit"]:hover {
     height: 100vh;
     font-size: 15px;
   }
-  
+
   .home h1 {
     font-size: 30px;
   }
-  
+
   .home h2 {
     font-size: 20px;
   }
-  
+
   #about {
     height: 100%;
     font-size: 15px;
   }
-  
+
   .about-content {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
-  
+
   .about-div {
     width: 90%;
     max-width: 400px;
     margin: 0;
   }
-  
+
   .about-div h3 {
     font-size: 28px;
   }
-  
+
   .about-div p {
     font-size: 18px;
     text-align: center;
@@ -973,8 +980,10 @@ input[type="submit"]:hover {
     height: 100%;
     font-size: 15px;
   }
-  
-  .con1, .con2, .con3 {
+
+  .con1,
+  .con2,
+  .con3 {
     flex-direction: column;
     gap: 20px;
     padding: 15px;
@@ -1000,15 +1009,15 @@ input[type="submit"]:hover {
     margin: 20px;
     text-align: center;
   }
-  
+
   .project a {
     font-size: 20px;
   }
-  
+
   .project img {
     width: 80%;
   }
-  
+
   #Contact {
     min-height: 100vh;
     padding: 80px 0;
@@ -1036,40 +1045,41 @@ input[type="submit"]:hover {
   .home h1 {
     font-size: 24px;
   }
-  
+
   .home h2 {
     font-size: 18px;
   }
-  
+
   .home p {
     font-size: 16px;
   }
-  
+
   .about-div h3 {
     font-size: 22px;
   }
-  
+
   .about-div p {
     font-size: 16px;
   }
-  
+
   .small-img {
     width: 140px;
     height: 140px;
   }
-  
+
   .text h2 {
     font-size: 20px;
   }
-  
+
   .text p {
     font-size: 16px;
   }
-  
-  input, textarea {
+
+  input,
+  textarea {
     font-size: 16px;
   }
-  
+
   input[type="submit"] {
     max-width: 150px;
   }

@@ -10,29 +10,7 @@ const hamburger = document.querySelector("#hamburger");
 const svg = document.querySelectorAll(".svg");
 const svgRing = document.querySelector(".svg-ring");
 const img = document.querySelector(".img");
-const radio1 = document.querySelector("#radio1");
-const radio2 = document.querySelector("#radio2");
-const radio3 = document.querySelector("#radio3");
-const con1 = document.querySelector(".con1");
-const con2 = document.querySelector(".con2");
-const con3 = document.querySelector(".con3");
 
-radio1.addEventListener("click", () => {
-  con1.style.display = "flex";
-  con2.style.display = "none";
-  con3.style.display = "none";
-});
-radio2.addEventListener("click", () => {
-  con1.style.display = "none";
-  con2.style.display = "flex";
-  con3.style.display = "none";
-});
-
-radio3.addEventListener("click", () => {
-  con1.style.display = "none";
-  con2.style.display = "none";
-  con3.style.display = "flex";
-});
 
 ////////////////////////
 active.forEach((link) => {
@@ -78,7 +56,6 @@ hamburger.addEventListener("click", function () {
 homeLi.classList.add("active");
 // log when scroll
 window.addEventListener("scroll", () => {
-console.log(window.scrollY);
   // Improved section highlighting logic
   if (window.scrollY < 1100) {
     homeLi.classList.add("active");
@@ -136,3 +113,79 @@ console.log(window.scrollY);
     svgRing.style.stroke = "white";
   }
 });
+
+// Portfolio projects arrays for EN and AR
+const portfolioProjectsEN = [
+  {
+    src: './images/restaurant.gif',
+    title: 'Restaurant Website',
+    desc: 'In this project I built a website for a restaurant using MERN stack (MongoDB, Express, React, Node.js)',
+    link: 'https://mern-restaurant.onrender.com/',
+
+  },
+  {
+    src: './images/player.gif',
+    title: 'Video Player',
+    desc: 'A custom video player application with playback controls and responsive design',
+    link: 'https://abdullaalwaki.github.io/videoplyer/',
+
+  },
+  {
+    src: './images/Ramadantimer.gif',
+    title: 'Ramadan Timer',
+    desc: 'An interactive timer application for tracking Ramadan prayer and meal times',
+    link: 'https://abdullaalwaki.github.io/RamadanTimer/',
+
+  }
+];
+
+function renderPortfolioCards() {
+  const container = document.querySelector('.portfolio_card');
+  if (!container) return;
+  container.innerHTML = portfolioProjectsEN.map(proj => `
+    <div class="project-card">
+      <img class="img" src="${proj.src}" alt="${proj.title}" />
+      <div class="text">
+        <h2>${proj.title}</h2>
+        <p>${proj.desc}</p>
+        <a href="${proj.link}";" target="_blank">View Project</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderPortfolioCards();
+});
+
+// Move About and Portfolio section HTML into JS and inject on DOMContentLoaded
+// Portfolio content as array
+const portfolioProjects = [
+  {
+    type: 'iframe',
+    src: 'https://mern-restaurant.onrender.com/',
+    title: 'Restaurant Website',
+    desc: 'In this project I built a website for a restaurant using MERN stack (MongoDB, Express, React, Node.js)',
+    link: 'https://mern-restaurant.onrender.com/',
+    color: 'rgb(0, 64, 255)',
+    style: ''
+  },
+  {
+    type: 'iframe',
+    src: 'https://abdullaalwaki.github.io/videoplyer/',
+    title: 'Video Player',
+    desc: 'A custom video player application with playback controls and responsive design',
+    link: 'https://abdullaalwaki.github.io/videoplyer/',
+    color: 'rgb(0, 153, 255)',
+    style: 'background: red;'
+  },
+  {
+    type: 'img',
+    src: './images/Ramadantimer.gif',
+    title: 'Ramadan Timer',
+    desc: 'An interactive timer application for tracking Ramadan prayer and meal times',
+    link: 'https://abdullaalwaki.github.io/RamadanTimer/',
+    color: 'rgb(0, 102, 255)',
+    style: ''
+  }
+];

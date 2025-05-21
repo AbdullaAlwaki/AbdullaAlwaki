@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
     <title>Abdulla Alwaki</title>
@@ -49,12 +49,14 @@
       />
       <h1>Abdulla Alwaki</h1>
       <h2>Web Developer</h2>
-      <ul>
-        <a href="#"><li class="active li-home">Home</li></a>
-        <a href="#about"><li class="li-about">About</li></a>
-        <a href="#Portfolio"><li class="li-Portfolio">Portfolio</li></a>
-        <a href="#Contact"><li class="li-contact">Contact</li></a>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="#" class="active li-home">Home</a></li>
+          <li><a href="#about" class="li-about">About</a></li>
+          <li><a href="#Portfolio" class="li-Portfolio">Portfolio</a></li>
+          <li><a href="#Contact" class="li-contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
     <div id="main">
       <div class="home">
@@ -110,7 +112,7 @@
           <iframe class="img" src="https://mern-restaurant.onrender.com/" frameborder="0"></iframe>
           <div class="text">
               <h2>Restaurant Website</h2>
-              <p>In this project I built a website for a restaurant using frontend and backend technologies</p>
+              <p>In this project I built a website for a restaurant using MERN stack (MongoDB, Express, React, Node.js)</p>
               <a href="https://mern-restaurant.onrender.com/" style="color: rgb(0, 64, 255);" target="_blank">View Project</a>
             </div>
           </div>
@@ -118,8 +120,8 @@
           <div class="con2">
             <iframe class="img" style="background: red;" src="https://abdullaalwaki.github.io/videoplyer/"></iframe>
             <div class="text">
-                <h2>Restaurant Website</h2>
-                <p>In this project I built a website for a restaurant using frontend and backend technologies</p>
+                <h2>Video Player</h2>
+                <p>A custom video player application with playback controls and responsive design</p>
                 <a href="https://abdullaalwaki.github.io/videoplyer/" style="color: rgb(0, 153, 255);" target="_blank">View Project</a>
               </div>
             </div>
@@ -127,8 +129,8 @@
             <div class="con3">
               <img class="img" src="./images/Ramadantimer.gif" alt="" />
               <div class="text">
-                  <h2>Restaurant Website</h2>
-                  <p>In this project I built a website for a restaurant using frontend and backend technologies</p>
+                  <h2>Ramadan Timer</h2>
+                  <p>An interactive timer application for tracking Ramadan prayer and meal times</p>
                   <a href="https://abdullaalwaki.github.io/RamadanTimer/" style="color: rgb(0, 102, 255);" target="_blank">View Project</a>
                 </div>
               </div>
@@ -145,19 +147,26 @@
       
        <div id="Contact">
         <div class="Contact-content">
-          <h1>Contact</h1>
+          <h1>Get In Touch</h1>
+          <p class="contact-intro">Feel free to reach out for collaborations or just a friendly chat</p>
           <form action="" >
-            <input type="text" id="name" placeholder="Name" required />
-            <input type="email" id="email" placeholder="Email" required />
-            <textarea
-              name=""
-              id="text"
-              cols="30"
-              rows="10"
-              placeholder="Message"
-              required
-             ></textarea>
-            <input type="submit" value="Send"/>
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                id="text"
+                cols="30"
+                rows="8"
+                placeholder="Your Message"
+                required
+               ></textarea>
+            </div>
+            <input type="submit" value="Send Message"/>
           </form>
         </div>
         <p class="message"></p>

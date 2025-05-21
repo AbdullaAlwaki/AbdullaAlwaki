@@ -43,6 +43,17 @@ active.forEach((link) => {
       link.classList.remove("active");
     });
     link.classList.add("active");
+    
+    // Close mobile menu when a navigation link is clicked
+    if (window.innerWidth <= 750) {
+      side.style.display = "none";
+      hamburger.classList.remove("is-open");
+      hamburger.classList.add("is-closed");
+      svg.forEach((svg) => {
+        svg.style.backgroundColor = "black";
+      });
+      svgRing.style.stroke = "black";
+    }
   });
 });
 
